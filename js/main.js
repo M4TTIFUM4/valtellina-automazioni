@@ -178,7 +178,7 @@
      Se action è vuoto, viene aperto il client email precompilato. */
   var form = document.getElementById("contact-form");
   var msg = document.getElementById("form-msg");
-  var CONTACT_EMAIL = "info@valtellinaautomazioni.it";
+  var CONTACT_EMAIL = "info@officinaquantica.it";
 
   function setInvalid(el, bad) {
     var wrap = el.closest(".field") || el.closest(".check");
@@ -206,7 +206,7 @@
       if (endpoint) {
         msg.className = "form__msg";
         msg.textContent = "Invio in corso…";
-        fetch(endpoint, { method: "POST", body: data, headers: { Accept: "application/json" } })
+        fetch(endpoint, { method: "POST", body: JSON.stringify(Object.fromEntries(data)), headers: { "Content-Type": "application/json", Accept: "application/json" } })
           .then(function (r) {
             if (!r.ok) throw new Error();
             form.reset();
