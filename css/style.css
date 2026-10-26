@@ -568,3 +568,11 @@ input[type="range"]::-moz-range-thumb { width: 20px; height: 20px; border-radius
 }
 .link-arrow--light { color: var(--accent-bright); display: inline-flex; margin-top: 18px; margin-left: 4px; }
 .service--main .service__copy .link-arrow--light { display: flex; }
+.related { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; max-width: 900px; margin: 0 auto; }
+.related__item { display: flex; gap: 16px; align-items: center; padding: 22px 24px; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); color: var(--text); text-decoration: none !important; box-shadow: var(--shadow-sm); transition: transform .2s, box-shadow .2s, border-color .2s; }
+.related__item:hover { transform: translateY(-3px); box-shadow: var(--shadow); border-color: var(--accent); }
+.related__item > .ic:first-child { width: 46px; height: 46px; padding: 11px; border-radius: 13px; background: var(--accent-soft); color: var(--accent); }
+.related__item h3 { margin-bottom: 2px; font-size: 1.08rem; }
+.related__item p { margin: 0; color: var(--muted); font-size: .93rem; line-height: 1.45; }
+.related__go { margin-left: auto; color: var(--accent); }
+@media (max-width: 720px) { .related { grid-template-columns: 1fr; } }
