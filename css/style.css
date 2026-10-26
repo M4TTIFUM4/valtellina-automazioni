@@ -536,3 +536,35 @@ input[type="range"]::-moz-range-thumb { width: 20px; height: 20px; border-radius
   }
   .mobile-cta.is-visible { transform: none; }
 }
+
+/* ---------- Pagine interne ---------- */
+.hero--page { padding-bottom: 90px; }
+.hero--page .hero__grid { grid-template-columns: 1fr; max-width: 860px; }
+.crumbs { font-size: .88rem; margin-bottom: 18px; color: rgba(255,255,255,.6); }
+.crumbs a { color: rgba(255,255,255,.8); }
+.prose-grid { display: grid; grid-template-columns: 1.4fr .9fr; gap: 48px; align-items: start; }
+.prose h2 { margin-bottom: .6em; }
+.prose p { color: var(--muted); font-size: 1.06rem; max-width: 66ch; }
+.prose strong { color: var(--ink); }
+.prose .btn { margin-top: 10px; }
+.note-card { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 28px; box-shadow: var(--shadow-sm); position: sticky; top: calc(var(--header-h) + 24px); }
+.note-card h3 { margin-bottom: 16px; }
+.note-card ul { display: flex; flex-direction: column; gap: 12px; }
+.note-card li { display: flex; gap: 10px; align-items: flex-start; }
+.note-card li .ic { color: var(--accent); margin-top: 4px; }
+.note-card--dark { background: var(--ink); border-color: var(--ink); color: rgba(255,255,255,.85); }
+.note-card--dark h3 { color: #fff; }
+.mini-flow { display: flex; flex-direction: column; gap: 12px; }
+.mini-flow li { display: flex; gap: 12px; align-items: center; }
+.mini-flow span { width: 30px; height: 30px; flex-shrink: 0; border-radius: 50%; display: grid; place-items: center; background: rgba(52,209,161,.15); color: var(--accent-bright); font-family: var(--font-head); font-weight: 800; font-size: .9rem; }
+.zones { display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; max-width: 900px; margin: 0 auto; }
+.zones li { padding: 9px 16px; border-radius: 999px; background: var(--surface); border: 1px solid var(--line); font-weight: 600; font-size: .95rem; }
+@media (max-width: 860px) {
+  .prose-grid { grid-template-columns: 1fr; gap: 28px; }
+  .note-card { position: static; }
+}
+@media (max-width: 720px) {
+  .zones { justify-content: flex-start; }
+}
+.link-arrow--light { color: var(--accent-bright); display: inline-flex; margin-top: 18px; margin-left: 4px; }
+.service--main .service__copy .link-arrow--light { display: flex; }
