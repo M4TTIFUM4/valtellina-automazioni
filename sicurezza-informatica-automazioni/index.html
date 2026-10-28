@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sicurezza informatica di automazioni e AI | Valtellina Automazioni</title>
+  <meta name="description" content="Ogni automazione e agente AI che realizziamo per le aziende di Sondrio e Valtellina è sicuro fin dalla progettazione: permessi minimi, password cifrate, dati in Europa, GDPR, controllo umano e documento di sicurezza alla consegna.">
+  <link rel="canonical" href="https://www.officinaquantica.it/sicurezza-informatica-automazioni/">
+  <meta name="robots" content="index, follow">
+  <meta name="geo.region" content="IT-SO">
+  <meta name="geo.placename" content="Sondrio">
+  <meta name="theme-color" content="#0B1B2B">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="it_IT">
+  <meta property="og:site_name" content="Valtellina Automazioni">
+  <meta property="og:title" content="Automazioni e AI sicure fin dal primo giorno">
+  <meta property="og:description" content="Le 10 regole di sicurezza informatica che applichiamo a ogni programma: accessi minimi, credenziali cifrate, server UE, GDPR, registro delle azioni, backup e aggiornamenti.">
+  <meta property="og:url" content="https://www.officinaquantica.it/sicurezza-informatica-automazioni/">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css">
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": "Automazioni e AI sicure fin dal primo giorno",
+  "serviceType": "Sicurezza informatica di automazioni e agenti AI",
+  "url": "https://www.officinaquantica.it/sicurezza-informatica-automazioni/",
+  "areaServed": [
+    {
+      "@type": "AdministrativeArea",
+      "name": "Provincia di Sondrio"
+    },
+    {
+      "@type": "Place",
+      "name": "Valtellina"
+    },
+    {
+      "@type": "Place",
+      "name": "Valchiavenna"
+    }
+  ],
+  "provider": {
+    "@type": "ProfessionalService",
+    "@id": "https://www.officinaquantica.it/#azienda",
+    "name": "Valtellina Automazioni",
+    "url": "https://www.officinaquantica.it/",
+    "telephone": "+39 351 507 3173",
+    "email": "info@officinaquantica.it"
+  }
+}
+  </script>
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://www.officinaquantica.it/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Sicurezza informatica",
+      "item": "https://www.officinaquantica.it/sicurezza-informatica-automazioni/"
+    }
+  ]
+}
+  </script>
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "La sicurezza si paga a parte?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. Le regole di sicurezza fanno parte di ogni progetto che realizziamo e sono incluse nel preventivo. Non esiste una versione \"senza sicurezza\" più economica."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Dove finiscono i dati della mia azienda?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Usiamo, quando possibile, servizi con server nell'Unione Europea e vi indichiamo per iscritto quali servizi sono coinvolti e dove si trovano. Conserviamo solo i dati necessari, per il tempo necessario."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "L'intelligenza artificiale usa i miei dati per imparare?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. Usiamo servizi AI in versione professionale configurati in modo che i dati inviati non vengano usati per addestrare i modelli, e mandiamo all'AI solo le informazioni indispensabili per l'attività."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Voi avrete accesso ai nostri sistemi?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Solo quello necessario per realizzare e mantenere l'automazione, con utenti dedicati e tracciati. Gli account restano intestati alla vostra azienda e potete revocarci l'accesso in qualsiasi momento."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Cosa succede se l'automazione si blocca o sbaglia?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ogni azione è registrata, quindi si capisce subito cosa è successo. Le operazioni importanti richiedono una conferma umana, e in caso di blocco il lavoro può continuare a mano mentre interveniamo."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Le automazioni rispettano il GDPR?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Le progettiamo seguendo i principi del GDPR, come la minimizzazione dei dati e la protezione fin dalla progettazione, e firmiamo un accordo sul trattamento dei dati. Il documento di sicurezza che consegniamo aiuta anche il vostro consulente privacy."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Potete controllare anche la sicurezza dei programmi che usiamo già?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Durante l'analisi gratuita facciamo una verifica di base su accessi, password, backup ed email, e vi segnaliamo i punti più a rischio. Per verifiche approfondite vi indichiamo come procedere."
+      }
+    }
+  ]
+}
+  </script>
+</head>
+<body>
+
+  <!-- Icone SVG riutilizzabili -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <defs>
+      <symbol id="i-mail" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></symbol>
+      <symbol id="i-file" viewBox="0 0 24 24"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"/><path d="M14 3v5h5M9 13h6M9 17h4"/></symbol>
+      <symbol id="i-sheet" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 10h18M3 15h18M9 4v16"/></symbol>
+      <symbol id="i-chart" viewBox="0 0 24 24"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/></symbol>
+      <symbol id="i-cart" viewBox="0 0 24 24"><circle cx="9" cy="20" r="1.5"/><circle cx="18" cy="20" r="1.5"/><path d="M2 3h3l2.5 12h11.5l2-8H6.2"/></symbol>
+      <symbol id="i-link" viewBox="0 0 24 24"><path d="M10 14a5 5 0 0 0 7 0l3-3a5 5 0 0 0-7-7l-1 1"/><path d="M14 10a5 5 0 0 0-7 0l-3 3a5 5 0 0 0 7 7l1-1"/></symbol>
+      <symbol id="i-chat" viewBox="0 0 24 24"><path d="M21 12a8 8 0 0 1-11.6 7.1L4 20l1-4.6A8 8 0 1 1 21 12z"/><path d="M8.5 12h.01M12 12h.01M15.5 12h.01"/></symbol>
+      <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></symbol>
+      <symbol id="i-spark" viewBox="0 0 24 24"><path d="M12 3v4M12 17v4M3 12h4M17 12h4M6 6l2.5 2.5M15.5 15.5 18 18M6 18l2.5-2.5M15.5 8.5 18 6"/></symbol>
+      <symbol id="i-brain" viewBox="0 0 24 24"><rect x="4" y="7" width="16" height="12" rx="3"/><path d="M12 7V3M9 3h6"/><circle cx="9" cy="13" r="1.2"/><circle cx="15" cy="13" r="1.2"/><path d="M2 12v3M22 12v3"/></symbol>
+      <symbol id="i-check" viewBox="0 0 24 24"><path d="m5 12.5 4.5 4.5L19 7.5"/></symbol>
+      <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></symbol>
+      <symbol id="i-globe" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"/></symbol>
+      <symbol id="i-camera" viewBox="0 0 24 24"><rect x="3" y="6" width="18" height="14" rx="2"/><circle cx="12" cy="13" r="3.5"/><path d="M8 6l1.5-2h5L16 6"/></symbol>
+      <symbol id="i-search" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></symbol>
+      <symbol id="i-user" viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21a8 8 0 0 1 16 0"/></symbol>
+      <symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 21s-7-6.2-7-12a7 7 0 0 1 14 0c0 5.8-7 12-7 12z"/><circle cx="12" cy="9" r="2.5"/></symbol>
+      <symbol id="i-puzzle" viewBox="0 0 24 24"><path d="M10 3h4v3a2 2 0 1 0 4 0V3h3v7h-3a2 2 0 1 0 0 4h3v7h-7v-3a2 2 0 1 0-4 0v3H3v-7h3a2 2 0 1 0 0-4H3V3h7z"/></symbol>
+      <symbol id="i-step" viewBox="0 0 24 24"><path d="M4 18h5v-5h5V8h6"/><circle cx="20" cy="8" r="1.5"/></symbol>
+      <symbol id="i-shield" viewBox="0 0 24 24"><path d="M12 3 4 6v6c0 4.5 3.4 8.3 8 9 4.6-.7 8-4.5 8-9V6z"/><path d="m9 12 2 2 4-4"/></symbol>
+      <symbol id="i-phone" viewBox="0 0 24 24"><rect x="7" y="2" width="10" height="20" rx="2"/><path d="M11 18h2"/></symbol>
+      <symbol id="i-calendar" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/></symbol>
+      <symbol id="i-folder" viewBox="0 0 24 24"><path d="M3 7a2 2 0 0 1 2-2h4l2 2h8a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/></symbol>
+      <symbol id="i-bell" viewBox="0 0 24 24"><path d="M6 16V11a6 6 0 0 1 12 0v5l2 2H4z"/><path d="M10 21h4"/></symbol>
+      <symbol id="i-refresh" viewBox="0 0 24 24"><path d="M20 11a8 8 0 0 0-14.5-4.5L4 8M4 4v4h4M4 13a8 8 0 0 0 14.5 4.5L20 16M20 20v-4h-4"/></symbol>
+      <symbol id="i-lock" viewBox="0 0 24 24"><rect x="5" y="11" width="14" height="10" rx="2"/><path d="M8 11V7a4 4 0 0 1 8 0v4"/><path d="M12 15v2"/></symbol>
+      <symbol id="i-key" viewBox="0 0 24 24"><circle cx="8" cy="15" r="4"/><path d="m11 12 9-9M17 6l3 3M15 8l2 2"/></symbol>
+    </defs>
+  </svg>
+
+  <a class="skip-link" href="#contenuto">Vai al contenuto</a>
+
+  <!-- ===== HEADER ===== -->
+  <header class="header" id="top">
+    <div class="container header__inner">
+      <a href="/" class="logo" aria-label="Valtellina Automazioni - torna all'inizio">
+        <span class="logo__mark" aria-hidden="true">
+          <svg viewBox="0 0 32 32"><path d="M4 24 12 10l5 8 4-6 7 12z" fill="currentColor"/><circle cx="23" cy="8" r="3" fill="var(--warm)"/></svg>
+        </span>
+        <span class="logo__text">Valtellina<strong>Automazioni</strong></span>
+      </a>
+
+      <nav class="nav" id="nav" aria-label="Navigazione principale">
+        <a href="/#soluzione">Come aiutiamo</a>
+        <a href="/#esempi">Esempi</a>
+        <a href="/#servizi">Servizi</a>
+        <a href="/#metodo">Metodo</a>
+        <a href="#faq">FAQ</a>
+        <a href="#contatti" class="btn btn--primary btn--sm nav__cta">Consulenza gratuita</a>
+      </nav>
+
+      <button class="nav-toggle" aria-label="Apri il menu" aria-expanded="false" aria-controls="nav">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="contenuto">
+    <!-- HERO PAGINA -->
+    <section class="hero hero--page">
+      <div class="hero__bg" aria-hidden="true"></div>
+      <div class="container hero__grid">
+        <div class="hero__copy">
+          <nav class="crumbs" aria-label="Percorso"><a href="/">Home</a> <span aria-hidden="true">›</span> <span>Sicurezza informatica</span></nav>
+          <p class="eyebrow eyebrow--light"><svg class="ic"><use href="#i-shield"/></svg> Sicurezza in ogni automazione che realizziamo</p>
+          <h1>Automazioni e AI <span class="hl">sicure fin dal primo giorno</span></h1>
+          <p class="hero__lead">Un'automazione legge le vostre email, apre le fatture, entra nel gestionale. Per questo ogni programma e ogni agente AI che realizziamo per le aziende della provincia di Sondrio nasce con le stesse regole di sicurezza: accessi ridotti al minimo, password custodite in modo cifrato, dati in Europa, controlli prima della consegna e un documento che spiega tutto, nero su bianco.</p>
+          <div class="hero__ctas">
+            <a href="#contatti" class="btn btn--primary btn--lg">Parliamo della vostra sicurezza <svg class="ic"><use href="#i-arrow"/></svg></a>
+            <a href="#regole" class="btn btn--ghost btn--lg">Le nostre 10 regole</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- IL PROBLEMA -->
+    <section class="section">
+      <div class="container prose-grid">
+        <div class="prose reveal">
+          <p class="eyebrow">Perché ne parliamo</p>
+          <h2>Un'automazione è un collega digitale: deve avere solo le chiavi che le servono</h2>
+          <p>Quando un'azienda automatizza un processo, dà a un programma l'accesso a dati che prima passavano solo per le mani delle persone: indirizzi email, dati dei clienti, importi, documenti riservati. Un'automazione fatta in fretta, con la password dell'amministratore incollata nel codice e permessi su tutto, diventa la porta più comoda per chi vuole entrare.</p>
+          <p>Le piccole e medie imprese sono oggi tra i bersagli più frequenti di truffe via email, furti di credenziali e attacchi ransomware, proprio perché spesso hanno meno difese delle grandi aziende.</p>
+          <p>Per questo la sicurezza non è un servizio in più che vendiamo a parte: è il modo in cui lavoriamo su <strong>ogni</strong> progetto, dal più piccolo promemoria automatico all'assistente AI che risponde ai clienti.</p>
+        </div>
+        <aside class="note-card note-card--dark reveal">
+          <h3>In ogni progetto, sempre</h3>
+          <ol class="mini-flow">
+            <li><span>1</span> Analisi dei rischi prima di scrivere codice</li>
+            <li><span>2</span> Accessi minimi e password cifrate</li>
+            <li><span>3</span> Test di sicurezza prima della consegna</li>
+            <li><span>4</span> Documento di sicurezza consegnato al cliente</li>
+            <li><span>5</span> Aggiornamenti e controlli nel tempo</li>
+          </ol>
+        </aside>
+      </div>
+    </section>
+
+    <!-- LE 10 REGOLE -->
+    <section class="section section--tint" id="regole">
+      <div class="container">
+        <div class="section__head reveal">
+          <p class="eyebrow">Sicurezza by design</p>
+          <h2>Le 10 regole che applichiamo a ogni programma</h2>
+          <p class="section__lead">Non sono opzioni da aggiungere: valgono per tutto quello che realizziamo, e le verifichiamo una per una prima di consegnare.</p>
+        </div>
+        <div class="pain-grid">
+          <article class="pain reveal">
+            <svg class="pain__ic"><use href="#i-key"/></svg>
+            <h3>1. Solo i permessi necessari</h3>
+            <p>Ogni automazione ha un utente dedicato, con accesso solo a ciò che serve: se deve leggere una casella email, non può cancellarla né scrivere nel gestionale.</p>
+          </article>
+          <article class="pain reveal">
+            <svg class="pain__ic"><use href="#i-lock"/></svg>
+            <h3>2. Password mai nel codice</h3>
+            <p>Credenziali e chiavi di accesso stanno in una cassaforte digitale cifrata, mai scritte nei file o mandate per email. Si possono cambiare o revocare in qualsiasi momento.</p>
+          </article>
+          <article class="pain reveal">
+            <svg class="pain__ic"><use href="#i-shield"/></svg>
+            <h3>3. Dati cifrati</h3>
+            <p>Connessioni sempre protette (HTTPS/TLS) e dati salvati in forma cifrata. Conserviamo solo ciò che serve, per il tempo che serve.</p>
+          </article>
+          <article class="pain reveal">
+            <svg class="pain__ic"><use href="#i-globe"/></svg>
+            <h3>4. Server in Europa e GDPR</h3>
+            <p>Scegliamo, quando possibile, servizi con server nell'Unione Europea e firmiamo con voi un accordo sul trattamento dei dati secondo il GDPR.</p>
+          </article>
+          <article class="pain reveal">
+            <svg class="pain__ic"><use href="#i-brain"/></svg>
+            <h3>5. AI che non impara dai vostri dati</h3>
+            <p>Usiamo servizi di intelligenza artificiale in versione professionale, configurati in modo che i vostri dati non vengano usati per addestrare i modelli.</p>
+          </article>
+          <article class="pain reveal">
+            <svg class="pain__ic"><use href="#i-user"/></svg>
+            <h3>6. L'ultima parola a una persona</h3>
+            <p>Pagamenti, invii ai clienti, cancellazioni: le azioni importanti passano da una conferma umana. L'AI prepara, la persona approva.</p>
+          </article>
+          <article class="pain reveal">
+            <svg class="pain__ic"><use href="#i-puzzle"/></svg>
+            <h3>7. Difese contro gli inganni all'AI</h3>
+            <p>Un'email o un documento possono contenere istruzioni nascoste per ingannare un assistente AI. Le nostre automazioni trattano i contenuti in arrivo come dati, mai come ordini.</p>
+          </article>
+          <article class="pain reveal">
+            <svg class="pain__ic"><use href="#i-file"/></svg>
+            <h3>8. Registro di ogni azione</h3>
+            <p>Ogni operazione viene registrata: cosa è stato fatto, quando e su quale dato. Se qualcosa non torna, si ricostruisce tutto.</p>
+          </article>
+          <article class="pain reveal">
+            <svg class="pain__ic"><use href="#i-refresh"/></svg>
+            <h3>9. Backup e piano B</h3>
+            <p>Configurazioni salvate e procedure di ripristino pronte. Se l'automazione si ferma, il lavoro può proseguire a mano, senza perdere dati.</p>
+          </article>
+          <article class="pain reveal">
+            <svg class="pain__ic"><use href="#i-bell"/></svg>
+            <h3>10. Controlli e aggiornamenti</h3>
+            <p>Monitoriamo errori e accessi anomali, aggiorniamo librerie e componenti quando escono correzioni di sicurezza e vi avvisiamo se serve un intervento.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- COSA RICEVETE -->
+    <section class="section">
+      <div class="container prose-grid">
+        <div class="prose reveal">
+          <p class="eyebrow">Trasparenza</p>
+          <h2>Alla consegna ricevete il "libretto" della sicurezza</h2>
+          <p>Con ogni automazione vi consegniamo un documento semplice, scritto in italiano chiaro, che spiega quali dati usa, dove passano, chi può accedervi e come si spegne tutto in caso di necessità. È utile per voi, per il vostro consulente privacy e per eventuali controlli.</p>
+          <p>Le credenziali restano vostre: gli account dei servizi sono intestati all'azienda e, se un giorno decidete di cambiare fornitore, ci togliete l'accesso con un clic, senza perdere nulla.</p>
+          <a href="#contatti" class="btn btn--primary">Chiedete un'analisi gratuita <svg class="ic"><use href="#i-arrow"/></svg></a>
+        </div>
+        <aside class="note-card reveal">
+          <h3>Cosa contiene</h3>
+          <ul>
+            <li><svg class="ic"><use href="#i-check"/></svg> elenco dei dati trattati e dove vengono salvati</li>
+            <li><svg class="ic"><use href="#i-check"/></svg> servizi esterni usati e loro sede</li>
+            <li><svg class="ic"><use href="#i-check"/></svg> accessi e permessi di ogni automazione</li>
+            <li><svg class="ic"><use href="#i-check"/></svg> come revocare accessi e cambiare password</li>
+            <li><svg class="ic"><use href="#i-check"/></svg> procedura di emergenza e di ripristino</li>
+            <li><svg class="ic"><use href="#i-check"/></svg> accordo sul trattamento dei dati (GDPR)</li>
+          </ul>
+        </aside>
+      </div>
+    </section>
+
+    <!-- CICLO DI VITA -->
+    <section class="section section--tint">
+      <div class="container">
+        <div class="section__head reveal">
+          <p class="eyebrow">Come lavoriamo</p>
+          <h2>La sicurezza in ogni fase del progetto</h2>
+        </div>
+        <ol class="steps">
+          <li class="step reveal"><span class="step__num">1</span><h3>Analisi dei rischi</h3><p>Prima di tutto capiamo quali dati tocca l'automazione e cosa succederebbe se finissero nelle mani sbagliate.</p></li>
+          <li class="step reveal"><span class="step__num">2</span><h3>Progetto sicuro</h3><p>Decidiamo permessi, percorsi dei dati e punti di controllo umano prima di scrivere codice.</p></li>
+          <li class="step reveal"><span class="step__num">3</span><h3>Sviluppo e test</h3><p>Proviamo l'automazione con dati di prova e casi limite, inclusi tentativi di uso scorretto.</p></li>
+          <li class="step reveal"><span class="step__num">4</span><h3>Consegna documentata</h3><p>Avvio graduale, documento di sicurezza e formazione rapida per chi la userà.</p></li>
+          <li class="step reveal"><span class="step__num">5</span><h3>Controllo nel tempo</h3><p>Aggiornamenti, verifica periodica degli accessi e intervento rapido in caso di problemi.</p></li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- CONSIGLI GRATUITI -->
+    <section class="section">
+      <div class="container prose-grid">
+        <div class="prose reveal">
+          <p class="eyebrow">Anche senza automazioni</p>
+          <h2>5 controlli di sicurezza che ogni azienda può fare oggi</h2>
+          <p>Durante l'analisi gratuita guardiamo anche questi punti, che spesso valgono più di qualsiasi programma:</p>
+          <ol>
+            <li><strong>Verifica in due passaggi</strong> attiva su email, banca e gestionale.</li>
+            <li><strong>Password diverse</strong> per ogni servizio, custodite in un gestore di password.</li>
+            <li><strong>Backup automatici</strong> anche fuori dall'ufficio, provati almeno una volta.</li>
+            <li><strong>Attenzione alle email</strong> che chiedono di cambiare IBAN o pagare con urgenza: sempre una telefonata di conferma.</li>
+            <li><strong>Utenti personali</strong>, non account condivisi, e accessi tolti subito a chi lascia l'azienda.</li>
+          </ol>
+        </div>
+        <aside class="note-card note-card--dark reveal">
+          <h3>Per chi è pensato</h3>
+          <ul>
+            <li><svg class="ic"><use href="#i-check"/></svg> aziende che vogliono automatizzare senza rischi</li>
+            <li><svg class="ic"><use href="#i-check"/></svg> studi professionali con dati riservati</li>
+            <li><svg class="ic"><use href="#i-check"/></svg> hotel e strutture con dati degli ospiti</li>
+            <li><svg class="ic"><use href="#i-check"/></svg> chi usa già l'AI e vuole farlo in modo sicuro</li>
+          </ul>
+        </aside>
+      </div>
+    </section>
+
+    <!-- ZONE -->
+    <section class="section section--tint">
+      <div class="container">
+        <div class="section__head reveal">
+          <p class="eyebrow">Dove lavoriamo</p>
+          <h2>In tutta la provincia di Sondrio</h2>
+          <p class="section__lead">Incontri in azienda quando serve, lavoro da remoto per tutto il resto.</p>
+        </div>
+        <ul class="zones reveal">
+          <li>Sondrio</li><li>Morbegno</li><li>Tirano</li><li>Chiavenna</li><li>Bormio</li><li>Livigno</li><li>Talamona</li><li>Delebio</li><li>Ponte in Valtellina</li><li>Teglio</li><li>Grosio</li><li>Berbenno di Valtellina</li><li>Chiesa in Valmalenco</li><li>Valfurva</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section" id="faq">
+      <div class="container container--narrow">
+        <div class="section__head reveal">
+          <p class="eyebrow">Domande frequenti</p>
+          <h2>Sicurezza di automazioni e AI: le domande più comuni</h2>
+        </div>
+        <div class="faq reveal">
+          <details><summary>La sicurezza si paga a parte?</summary><p>No. Le regole di sicurezza fanno parte di ogni progetto che realizziamo e sono incluse nel preventivo. Non esiste una versione "senza sicurezza" più economica.</p></details>
+          <details><summary>Dove finiscono i dati della mia azienda?</summary><p>Usiamo, quando possibile, servizi con server nell'Unione Europea e vi indichiamo per iscritto quali servizi sono coinvolti e dove si trovano. Conserviamo solo i dati necessari, per il tempo necessario.</p></details>
+          <details><summary>L'intelligenza artificiale usa i miei dati per imparare?</summary><p>No. Usiamo servizi AI in versione professionale configurati in modo che i dati inviati non vengano usati per addestrare i modelli, e mandiamo all'AI solo le informazioni indispensabili per l'attività.</p></details>
+          <details><summary>Voi avrete accesso ai nostri sistemi?</summary><p>Solo quello necessario per realizzare e mantenere l'automazione, con utenti dedicati e tracciati. Gli account restano intestati alla vostra azienda e potete revocarci l'accesso in qualsiasi momento.</p></details>
+          <details><summary>Cosa succede se l'automazione si blocca o sbaglia?</summary><p>Ogni azione è registrata, quindi si capisce subito cosa è successo. Le operazioni importanti richiedono una conferma umana, e in caso di blocco il lavoro può continuare a mano mentre interveniamo.</p></details>
+          <details><summary>Le automazioni rispettano il GDPR?</summary><p>Le progettiamo seguendo i principi del GDPR, come la minimizzazione dei dati e la protezione fin dalla progettazione, e firmiamo un accordo sul trattamento dei dati. Il documento di sicurezza che consegniamo aiuta anche il vostro consulente privacy.</p></details>
+          <details><summary>Potete controllare anche la sicurezza dei programmi che usiamo già?</summary><p>Durante l'analisi gratuita facciamo una verifica di base su accessi, password, backup ed email, e vi segnaliamo i punti più a rischio. Per verifiche approfondite vi indichiamo come procedere.</p></details>
+        </div>
+      </div>
+    </section>
+
+    <!-- ALTRI SERVIZI -->
+    <section class="section section--related">
+      <div class="container">
+        <div class="section__head reveal"><p class="eyebrow">Servizi e settori</p><h2>Cosa possiamo fare anche per voi</h2></div>
+        <div class="related">
+          <a class="related__item reveal" href="/automazione-aziende-valtellina/"><svg class="ic"><use href="#i-brain"/></svg><div><h3>Automazione aziende Valtellina</h3><p>Automazioni e agenti AI per email, fatture, ordini e documenti.</p></div><svg class="ic related__go"><use href="#i-arrow"/></svg></a>
+          <a class="related__item reveal" href="/siti-web-sondrio/"><svg class="ic"><use href="#i-globe"/></svg><div><h3>Siti web Sondrio</h3><p>Siti vetrina, landing page e siti per strutture ricettive.</p></div><svg class="ic related__go"><use href="#i-arrow"/></svg></a>
+          <a class="related__item reveal" href="/social-media-valtellina/"><svg class="ic"><use href="#i-camera"/></svg><div><h3>Social media Valtellina</h3><p>Post, foto, reel e TikTok per farvi conoscere in valle.</p></div><svg class="ic related__go"><use href="#i-arrow"/></svg></a>
+          <a class="related__item reveal" href="/automazione-hotel-valtellina/"><svg class="ic"><use href="#i-calendar"/></svg><div><h3>Automazione per hotel</h3><p>Richieste di disponibilità, ospiti stranieri, pre-arrivo e recensioni.</p></div><svg class="ic related__go"><use href="#i-arrow"/></svg></a>
+          <a class="related__item reveal" href="/automazione-commercialisti-sondrio/"><svg class="ic"><use href="#i-folder"/></svg><div><h3>Automazione per studi professionali</h3><p>Documenti dei clienti, solleciti, archiviazione e scadenze.</p></div><svg class="ic related__go"><use href="#i-arrow"/></svg></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== 8. CTA FINALE / CONTATTI ===== -->
+    <section class="section section--cta" id="contatti">
+      <div class="container cta">
+        <div class="cta__copy reveal">
+          <p class="eyebrow eyebrow--light">Consulenza gratuita</p>
+          <h2>Volete automatizzare in modo sicuro?</h2>
+          <p class="cta__lead">Raccontaci in due righe cosa vi fa perdere più tempo. Ti ricontattiamo entro un giorno lavorativo per capire insieme cosa si può automatizzare e quanto tempo potresti risparmiare.</p>
+          <ul class="cta__points">
+            <li><svg class="ic"><use href="#i-check"/></svg> Prima analisi gratuita e senza impegno</li>
+            <li><svg class="ic"><use href="#i-check"/></svg> Linguaggio semplice, niente tecnicismi</li>
+            <li><svg class="ic"><use href="#i-check"/></svg> Incontro in sede o online, come preferisci</li>
+          </ul>
+          <div class="cta__direct">
+            <a href="tel:+393515073173"><svg class="ic"><use href="#i-phone"/></svg> +39 351 507 3173</a>
+            <a href="mailto:info@officinaquantica.it"><svg class="ic"><use href="#i-mail"/></svg> info@officinaquantica.it</a>
+          </div>
+        </div>
+
+        <form class="form reveal" id="contact-form" action="https://formsubmit.co/ajax/info@officinaquantica.it" method="POST" novalidate>
+          <input type="hidden" name="_subject" value="Nuova richiesta dal sito: pagina Sicurezza informatica">
+          <input type="hidden" name="_template" value="table">
+          <input type="text" name="_honey" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px">
+          <h3 class="form__title">Richiedi la tua consulenza gratuita</h3>
+          <div class="form__row">
+            <label class="field">
+              <span>Nome e cognome *</span>
+              <input type="text" name="nome" autocomplete="name" required>
+            </label>
+            <label class="field">
+              <span>Azienda</span>
+              <input type="text" name="azienda" autocomplete="organization">
+            </label>
+          </div>
+          <div class="form__row">
+            <label class="field">
+              <span>Email *</span>
+              <input type="email" name="email" autocomplete="email" required>
+            </label>
+            <label class="field">
+              <span>Telefono</span>
+              <input type="tel" name="telefono" autocomplete="tel">
+            </label>
+          </div>
+          <label class="field">
+            <span>Di cosa ti occupi?</span>
+            <select name="settore">
+              <option value="">Seleziona il settore</option>
+              <option>Azienda / PMI</option>
+              <option>Studio professionale</option>
+              <option>Negozio / Commercio</option>
+              <option>Ristorante / Struttura ricettiva</option>
+              <option>Artigiano</option>
+              <option>Altro</option>
+            </select>
+          </label>
+          <label class="field">
+            <span>Quale attività vorresti automatizzare? *</span>
+            <textarea name="messaggio" rows="4" required placeholder="Es. ogni giorno inseriamo a mano nel gestionale le fatture dei fornitori che arrivano via email..."></textarea>
+          </label>
+          <label class="check">
+            <input type="checkbox" name="privacy" required>
+            <span>Ho letto l'<a href="/privacy.html">informativa privacy</a> e acconsento al trattamento dei dati per essere ricontattato. *</span>
+          </label>
+          <button type="submit" class="btn btn--primary btn--lg btn--block">Invia la richiesta <svg class="ic"><use href="#i-arrow"/></svg></button>
+          <p class="form__msg" id="form-msg" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container footer__grid">
+      <div>
+        <a href="/" class="logo logo--footer" aria-label="Valtellina Automazioni">
+          <span class="logo__mark" aria-hidden="true">
+            <svg viewBox="0 0 32 32"><path d="M4 24 12 10l5 8 4-6 7 12z" fill="currentColor"/><circle cx="23" cy="8" r="3" fill="var(--warm)"/></svg>
+          </span>
+          <span class="logo__text">Valtellina<strong>Automazioni</strong></span>
+        </a>
+        <p class="footer__claim">Automazione dei processi aziendali, agenti AI, siti web e content marketing per le imprese di Sondrio e della Valtellina.</p>
+      </div>
+      <div>
+        <h3>Servizi</h3>
+        <ul>
+          <li><a href="/#automazione">Automazione e agenti AI</a></li>
+          <li><a href="/automazione-aziende-valtellina/">Automazione aziende Valtellina</a></li>
+          <li><a href="/siti-web-sondrio/">Siti web Sondrio</a></li>
+          <li><a href="/social-media-valtellina/">Social media Valtellina</a></li>
+          <li><a href="/automazione-hotel-valtellina/">Automazione per hotel</a></li>
+          <li><a href="/automazione-commercialisti-sondrio/">Automazione per commercialisti</a></li>
+          <li><a href="/sicurezza-informatica-automazioni/">Sicurezza informatica</a></li>
+          <li><a href="/#siti-web">Creazione siti web</a></li>
+          <li><a href="/#content-marketing">Content creation e marketing</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Contatti</h3>
+        <address>
+          Via Esempio 1, 23100 Sondrio (SO)<br>
+          <a href="tel:+393515073173">+39 351 507 3173</a><br>
+          <a href="mailto:info@officinaquantica.it">info@officinaquantica.it</a>
+        </address>
+      </div>
+      <div>
+        <h3>Dove operiamo</h3>
+        <p class="footer__areas">Sondrio, Morbegno, Tirano, Chiavenna, Bormio, Livigno, Valmalenco e tutta la provincia di Sondrio.</p>
+      </div>
+    </div>
+    <div class="container footer__bottom">
+      <p>© <span id="year">2026</span> Valtellina Automazioni · P.IVA IT01009390145</p>
+      <p><a href="/privacy.html">Privacy policy</a> · <a href="/privacy.html#cookie">Cookie policy</a> · <a href="#" data-cookie-prefs>Preferenze cookie</a></p>
+    </div>
+  </footer>
+
+  <!-- CTA fissa su smartphone -->
+  <a href="#contatti" class="mobile-cta">Richiedi una consulenza gratuita</a>
+
+  <script src="/js/main.js" defer></script>
+  <script src="/js/cookie-consent.js" defer></script>
+</body>
+</html>
