@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Automazione logistica e magazzino a Sondrio: ordini, DDT e scorte | Valtellina Automazioni</title>
+  <meta name="description" content="Automazione per magazzini, grossisti, distributori e trasportatori in provincia di Sondrio: ordini da email e PDF nel gestionale, DDT registrati e confrontati, avvisi di scorta minima e tracking ai clienti. Controllo umano su ordini e pagamenti. Analisi gratuita.">
+  <link rel="canonical" href="https://www.officinaquantica.it/automazione-logistica-magazzino-sondrio/">
+  <meta name="robots" content="index, follow">
+  <meta name="geo.region" content="IT-SO">
+  <meta name="geo.placename" content="Sondrio">
+  <meta name="theme-color" content="#0B1B2B">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="it_IT">
+  <meta property="og:site_name" content="Valtellina Automazioni">
+  <meta property="og:title" content="Automazione per logistica e magazzino a Sondrio">
+  <meta property="og:description" content="Ordini letti in automatico, bolle registrate, scorte sotto controllo e clienti avvisati quando parte la merce: meno lavoro d'ufficio per i magazzini della provincia di Sondrio.">
+  <meta property="og:url" content="https://www.officinaquantica.it/automazione-logistica-magazzino-sondrio/">
+
+  <meta property="og:image" content="https://www.officinaquantica.it/assets/og-image.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Valtellina Automazioni: automatizza il lavoro, fai crescere la tua azienda">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="/favicon.ico" sizes="48x48">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="/favicon-96x96.png" type="image/png" sizes="96x96">
+  <link rel="icon" href="/icon-192.png" type="image/png" sizes="192x192">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css">
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": "Automazione per logistica e magazzino a Sondrio",
+  "serviceType": "Automazione dei processi di logistica e magazzino",
+  "url": "https://www.officinaquantica.it/automazione-logistica-magazzino-sondrio/",
+  "areaServed": [
+    {
+      "@type": "AdministrativeArea",
+      "name": "Provincia di Sondrio"
+    },
+    {
+      "@type": "Place",
+      "name": "Valtellina"
+    },
+    {
+      "@type": "Place",
+      "name": "Valchiavenna"
+    }
+  ],
+  "provider": {
+    "@type": "ProfessionalService",
+    "@id": "https://www.officinaquantica.it/#azienda",
+    "name": "Valtellina Automazioni",
+    "url": "https://www.officinaquantica.it/",
+    "telephone": "+39 351 507 3173",
+    "email": "info@officinaquantica.it"
+  }
+}
+  </script>
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://www.officinaquantica.it/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Automazione logistica e magazzino",
+      "item": "https://www.officinaquantica.it/automazione-logistica-magazzino-sondrio/"
+    }
+  ]
+}
+  </script>
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Realizzate magazzini robotizzati o automatici?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. Robot, scaffali automatici e navette sono impianti che progettano aziende specializzate. Noi automatizziamo la parte di informazioni: ordini, documenti di trasporto, giacenze, spedizioni e avvisi. Servono sia ai magazzini tradizionali sia a quelli già automatizzati."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Dobbiamo cambiare gestionale?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. Le automazioni lavorano con il gestionale che avete, con Excel o con Google Sheets. Se il gestionale permette un collegamento diretto lo usiamo, altrimenti prepariamo file pronti da importare in pochi clic."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "L'AI riesce a leggere ordini scritti in modi diversi?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sì, legge email, PDF, fogli Excel e anche foto di ordini scritti a mano, purché leggibili. Quando un codice non è chiaro o un articolo non esiste, non tira a indovinare: segnala la riga e la lascia da controllare a voi."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Cosa succede se l'automazione sbaglia?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ordini, riordini e pagamenti non diventano mai definitivi senza la vostra conferma, quindi un errore si vede prima che faccia danni. Ogni operazione è registrata e durante la prova confrontiamo i risultati con il lavoro fatto a mano."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Può ordinare la merce ai fornitori da sola?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Può prepararvi la proposta d'ordine quando un articolo scende sotto la scorta minima, già divisa per fornitore. L'invio però lo decidete sempre voi: è una regola che applichiamo a tutte le automazioni che toccano soldi o impegni con altre aziende."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Funziona anche con i corrieri?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sì, per le parti che i corrieri permettono di collegare: numeri di tracking, avvisi di partenza e di consegna ai clienti, elenco delle spedizioni in ritardo. Il collegamento cambia da corriere a corriere e lo verifichiamo durante l'analisi."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "I nostri dati restano riservati?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sì. Listini, clienti e fatture vengono trattati con servizi AI usati tramite API, che non usano i vostri documenti per addestrare i modelli. Gli accessi sono limitati a quello che serve, con backup e un accordo sul trattamento dei dati."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Quanto costa?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Dipende da quante attività automatizzate e da come sono collegati i vostri programmi. Si parte quasi sempre da una sola automazione, con un prezzo fisso scritto nel preventivo e definito prima di iniziare. L'analisi iniziale è gratuita e senza impegno."
+      }
+    }
+  ]
+}
+  </script>
+</head>
+<body>
+
+  <!-- Icone SVG riutilizzabili -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <defs>
+      <symbol id="i-mail" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></symbol>
+      <symbol id="i-file" viewBox="0 0 24 24"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"/><path d="M14 3v5h5M9 13h6M9 17h4"/></symbol>
+      <symbol id="i-sheet" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 10h18M3 15h18M9 4v16"/></symbol>
+      <symbol id="i-chart" viewBox="0 0 24 24"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/></symbol>
+      <symbol id="i-cart" viewBox="0 0 24 24"><circle cx="9" cy="20" r="1.5"/><circle cx="18" cy="20" r="1.5"/><path d="M2 3h3l2.5 12h11.5l2-8H6.2"/></symbol>
+      <symbol id="i-link" viewBox="0 0 24 24"><path d="M10 14a5 5 0 0 0 7 0l3-3a5 5 0 0 0-7-7l-1 1"/><path d="M14 10a5 5 0 0 0-7 0l-3 3a5 5 0 0 0 7 7l1-1"/></symbol>
+      <symbol id="i-chat" viewBox="0 0 24 24"><path d="M21 12a8 8 0 0 1-11.6 7.1L4 20l1-4.6A8 8 0 1 1 21 12z"/><path d="M8.5 12h.01M12 12h.01M15.5 12h.01"/></symbol>
+      <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></symbol>
+      <symbol id="i-spark" viewBox="0 0 24 24"><path d="M12 3v4M12 17v4M3 12h4M17 12h4M6 6l2.5 2.5M15.5 15.5 18 18M6 18l2.5-2.5M15.5 8.5 18 6"/></symbol>
+      <symbol id="i-brain" viewBox="0 0 24 24"><rect x="4" y="7" width="16" height="12" rx="3"/><path d="M12 7V3M9 3h6"/><circle cx="9" cy="13" r="1.2"/><circle cx="15" cy="13" r="1.2"/><path d="M2 12v3M22 12v3"/></symbol>
+      <symbol id="i-check" viewBox="0 0 24 24"><path d="m5 12.5 4.5 4.5L19 7.5"/></symbol>
+      <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></symbol>
+      <symbol id="i-globe" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"/></symbol>
+      <symbol id="i-camera" viewBox="0 0 24 24"><rect x="3" y="6" width="18" height="14" rx="2"/><circle cx="12" cy="13" r="3.5"/><path d="M8 6l1.5-2h5L16 6"/></symbol>
+      <symbol id="i-search" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></symbol>
+      <symbol id="i-user" viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21a8 8 0 0 1 16 0"/></symbol>
+      <symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 21s-7-6.2-7-12a7 7 0 0 1 14 0c0 5.8-7 12-7 12z"/><circle cx="12" cy="9" r="2.5"/></symbol>
+      <symbol id="i-puzzle" viewBox="0 0 24 24"><path d="M10 3h4v3a2 2 0 1 0 4 0V3h3v7h-3a2 2 0 1 0 0 4h3v7h-7v-3a2 2 0 1 0-4 0v3H3v-7h3a2 2 0 1 0 0-4H3V3h7z"/></symbol>
+      <symbol id="i-step" viewBox="0 0 24 24"><path d="M4 18h5v-5h5V8h6"/><circle cx="20" cy="8" r="1.5"/></symbol>
+      <symbol id="i-shield" viewBox="0 0 24 24"><path d="M12 3 4 6v6c0 4.5 3.4 8.3 8 9 4.6-.7 8-4.5 8-9V6z"/><path d="m9 12 2 2 4-4"/></symbol>
+      <symbol id="i-phone" viewBox="0 0 24 24"><rect x="7" y="2" width="10" height="20" rx="2"/><path d="M11 18h2"/></symbol>
+      <symbol id="i-calendar" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/></symbol>
+      <symbol id="i-folder" viewBox="0 0 24 24"><path d="M3 7a2 2 0 0 1 2-2h4l2 2h8a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/></symbol>
+      <symbol id="i-bell" viewBox="0 0 24 24"><path d="M6 16V11a6 6 0 0 1 12 0v5l2 2H4z"/><path d="M10 21h4"/></symbol>
+      <symbol id="i-refresh" viewBox="0 0 24 24"><path d="M20 11a8 8 0 0 0-14.5-4.5L4 8M4 4v4h4M4 13a8 8 0 0 0 14.5 4.5L20 16M20 20v-4h-4"/></symbol>
+      <symbol id="i-lock" viewBox="0 0 24 24"><rect x="5" y="11" width="14" height="10" rx="2"/><path d="M8 11V7a4 4 0 0 1 8 0v4"/><path d="M12 15v2"/></symbol>
+      <symbol id="i-key" viewBox="0 0 24 24"><circle cx="8" cy="15" r="4"/><path d="m11 12 9-9M17 6l3 3M15 8l2 2"/></symbol>
+    </defs>
+  </svg>
+
+  <a class="skip-link" href="#contenuto">Vai al contenuto</a>
+
+  <!-- ===== HEADER ===== -->
+  <header class="header" id="top">
+    <div class="container header__inner">
+      <a href="/" class="logo" aria-label="Valtellina Automazioni - torna all'inizio">
+        <span class="logo__mark" aria-hidden="true">
+          <svg viewBox="0 0 32 32"><path d="M4 24 12 10l5 8 4-6 7 12z" fill="currentColor"/><circle cx="23" cy="8" r="3" fill="var(--warm)"/></svg>
+        </span>
+        <span class="logo__text">Valtellina<strong>Automazioni</strong></span>
+      </a>
+
+      <nav class="nav" id="nav" aria-label="Navigazione principale">
+        <a href="/#soluzione">Come aiutiamo</a>
+        <a href="/#esempi">Esempi</a>
+        <a href="/#servizi">Servizi</a>
+        <a href="/#metodo">Metodo</a>
+        <a href="#faq">FAQ</a>
+        <a href="#contatti" class="btn btn--primary btn--sm nav__cta">Consulenza gratuita</a>
+      </nav>
+
+      <button class="nav-toggle" aria-label="Apri il menu" aria-expanded="false" aria-controls="nav">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="contenuto">
+    <!-- HERO PAGINA -->
+    <section class="hero hero--page">
+      <div class="hero__bg" aria-hidden="true"></div>
+      <div class="container hero__grid">
+        <div class="hero__copy">
+          <nav class="crumbs" aria-label="Percorso"><a href="/">Home</a> <span aria-hidden="true">›</span> <span>Automazione logistica e magazzino</span></nav>
+          <p class="eyebrow eyebrow--light"><svg class="ic"><use href="#i-pin"/></svg> Sondrio · Valtellina · Valchiavenna</p>
+          <h1>Automazione per logistica e magazzino: <span class="hl">meno carta, meno errori, ordini più veloci</span></h1>
+          <p class="hero__lead">Ordini che arrivano per email, in PDF o su WhatsApp e vanno ricopiati nel gestionale, bolle da registrare a mano, scorte controllate a occhio, clienti che chiamano per sapere dov'è la merce. Per magazzini, grossisti, distributori, trasportatori e aziende di produzione della provincia di Sondrio automatizziamo il lavoro d'ufficio che sta intorno alla merce.</p>
+          <div class="hero__ctas">
+            <a href="#contatti" class="btn btn--primary btn--lg">Richiedete un'analisi gratuita <svg class="ic"><use href="#i-arrow"/></svg></a>
+            <a href="#cosa-automatizzare" class="btn btn--ghost btn--lg">Cosa si può automatizzare</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- IL PROBLEMA -->
+    <section class="section">
+      <div class="container prose-grid">
+        <div class="prose reveal">
+          <p class="eyebrow">Lunedì mattina, ore 8</p>
+          <h2>La merce è pronta, ma l'ufficio è ancora fermo alle email del weekend</h2>
+          <p>Nella casella ci sono trenta ordini: alcuni nel testo dell'email, altri in un PDF allegato, uno fotografato con il telefono. Prima di preparare i colli qualcuno deve leggerli tutti e ricopiare codici e quantità nel gestionale. Basta un numero sbagliato per spedire la merce sbagliata.</p>
+          <p>Intanto arrivano i DDT dei fornitori da registrare, un cliente chiede a che punto è la sua consegna e ci si accorge che un articolo è finito solo quando serve. Sono attività che in magazzino conoscono tutti, e che portano via ore ogni settimana.</p>
+          <p>La merce si muove sempre con le mani e con i mezzi. Quello che si può automatizzare sono le informazioni che le girano intorno: ordini, bolle, giacenze, spedizioni e avvisi.</p>
+        </div>
+        <aside class="note-card note-card--dark reveal">
+          <h3>Un ordine, gestito in automatico</h3>
+          <ol class="mini-flow">
+            <li><span>1</span> Il cliente manda l'ordine per email o in PDF</li>
+            <li><span>2</span> L'AI legge cliente, codici e quantità</li>
+            <li><span>3</span> Controlla che gli articoli esistano e siano disponibili</li>
+            <li><span>4</span> Prepara l'ordine nel gestionale o in Excel</li>
+            <li><span>5</span> Voi controllate e confermate con un clic</li>
+          </ol>
+          <p style="margin-top:12px;font-size:.85rem;opacity:.85">Codici dubbi o quantità strane vengono segnalati, non indovinati.</p>
+        </aside>
+      </div>
+    </section>
+
+    <!-- COSA AUTOMATIZZARE -->
+    <section class="section section--tint" id="cosa-automatizzare">
+      <div class="container">
+        <div class="section__head reveal">
+          <p class="eyebrow">Cosa si può automatizzare</p>
+          <h2>Il lavoro d'ufficio di un magazzino</h2>
+          <p class="section__lead">Si parte da una sola attività, quella che oggi vi costa più tempo o più errori. Il resto si aggiunge solo se serve.</p>
+        </div>
+        <div class="pain-grid">
+          <article class="pain reveal">
+            <svg class="pain__ic"><use href="#i-mail"/></svg>
+            <h3>Ordini dei clienti</h3>
+            <p>Ordini via email, PDF, Excel o WhatsApp letti in automatico e preparati nel gestionale, con i codici articolo giusti. Niente più ricopiatura a mano.</p>
+          </article>
+          <article class="pain reveal">
+            <svg class="pain__ic"><use href="#i-file"/></svg>
+            <h3>DDT e bolle dei fornitori</h3>
+            <p>I documenti di trasporto vengono letti e registrati, e confrontati con l'ordine fatto: se manca qualcosa o le quantità non tornano, ve lo segnala.</p>
+          </article>
+          <article class="pain reveal">
+            <svg class="pain__ic"><use href="#i-chart"/></svg>
+            <h3>Scorte e riordino</h3>
+            <p>Avviso quando un articolo scende sotto la scorta minima e proposta d'ordine al fornitore già pronta. L'ordine parte solo quando lo confermate voi.</p>
+          </article>
+          <article class="pain reveal">
+            <svg class="pain__ic"><use href="#i-bell"/></svg>
+            <h3>Spedizioni e avvisi ai clienti</h3>
+            <p>Quando la merce parte, il cliente riceve un messaggio con il numero di tracking del corriere. Meno telefonate del tipo "dov'è il mio ordine?".</p>
+          </article>
+          <article class="pain reveal">
+            <svg class="pain__ic"><use href="#i-sheet"/></svg>
+            <h3>Fatture e DDT a confronto</h3>
+            <p>Le fatture elettroniche dei fornitori vengono confrontate con le bolle ricevute: prezzi diversi o righe in più vengono evidenziati prima del pagamento.</p>
+          </article>
+          <article class="pain reveal">
+            <svg class="pain__ic"><use href="#i-clock"/></svg>
+            <h3>Riepilogo del giorno</h3>
+            <p>Ogni mattina un riepilogo semplice: ordini da evadere, consegne in arrivo, articoli in esaurimento, clienti in attesa di risposta.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ESEMPIO -->
+    <section class="section">
+      <div class="container prose-grid">
+        <div class="prose reveal">
+          <p class="eyebrow">Un esempio concreto</p>
+          <h2>Un distributore con due persone in ufficio</h2>
+          <p>Proviamo a fare due conti su un grossista della valle, con numeri di esempio. Ogni settimana arrivano circa 80 ordini, quasi tutti per email: metà nel testo, metà come PDF del gestionale del cliente. Per inserire ciascun ordine servono in media 5 minuti tra lettura, ricerca dei codici e controllo: sono quasi 7 ore a settimana.</p>
+          <p>Con gli ordini letti e preparati in automatico, all'ufficio resta solo il controllo e la conferma, un minuto o poco più per ordine. In più si riducono gli errori di battitura, quelli che poi costano un reso, una seconda spedizione e un cliente scontento.</p>
+          <p>Il tempo risparmiato dipende da quanti ordini ricevete e da come sono fatti: lo stimiamo insieme durante l'analisi gratuita, partendo dai vostri documenti veri.</p>
+        </div>
+        <aside class="note-card reveal">
+          <h3>Cosa resta a voi</h3>
+          <ul>
+            <li><svg class="ic"><use href="#i-check"/></svg> la conferma di ogni ordine prima che diventi definitivo</li>
+            <li><svg class="ic"><use href="#i-check"/></svg> gli ordini ai fornitori, che partono solo con il vostro ok</li>
+            <li><svg class="ic"><use href="#i-check"/></svg> i pagamenti, che l'automazione non esegue mai da sola</li>
+            <li><svg class="ic"><use href="#i-check"/></svg> i casi dubbi: codici sconosciuti, prezzi diversi, clienti nuovi</li>
+          </ul>
+        </aside>
+      </div>
+    </section>
+
+    <!-- REGOLE -->
+    <section class="section section--tint">
+      <div class="container prose-grid">
+        <div class="prose reveal">
+          <p class="eyebrow">Per essere chiari</p>
+          <h2>Cosa facciamo e cosa no</h2>
+          <ul>
+            <li><strong>Non installiamo robot o scaffali automatici.</strong> Magazzini robotizzati, navette e transpallet automatici sono impianti di altre aziende specializzate. Noi automatizziamo la parte di informazioni e documenti, che serve con o senza robot.</li>
+            <li><strong>Il vostro gestionale resta.</strong> Lavoriamo con quello che usate già: gestionale, Excel, Google Sheets, email e portali dei corrieri. Dove il gestionale non si collega, prepariamo file pronti da importare.</li>
+            <li><strong>Controllo umano sulle cose importanti.</strong> Ordini, riordini e pagamenti vengono proposti, mai eseguiti da soli. Ogni azione è registrata, così si sa sempre chi ha fatto cosa.</li>
+            <li><strong>Dati protetti.</strong> Listini, clienti e fatture restano riservati: usiamo servizi AI via API che non addestrano i modelli con i vostri documenti, con permessi minimi e backup.</li>
+          </ul>
+          <p>Le regole di sicurezza che applichiamo a ogni automazione sono spiegate nella pagina sulla <a href="/sicurezza-informatica-automazioni/">sicurezza informatica</a>. Per gli altri processi d'ufficio guardate la pagina sull'<a href="/automazione-aziende-valtellina/">automazione delle aziende</a>.</p>
+        </div>
+        <aside class="note-card note-card--dark reveal">
+          <h3>Da dove partire</h3>
+          <ol class="mini-flow">
+            <li><span>1</span> Ordini dei clienti letti in automatico</li>
+            <li><span>2</span> DDT dei fornitori registrati e confrontati</li>
+            <li><span>3</span> Avviso di scorta minima</li>
+          </ol>
+          <p style="margin-top:12px;font-size:.85rem;opacity:.85">Sono le tre automazioni che di solito fanno risparmiare più ore d'ufficio, senza cambiare il gestionale.</p>
+        </aside>
+      </div>
+    </section>
+
+    <!-- METODO -->
+    <section class="section">
+      <div class="container">
+        <div class="section__head reveal">
+          <p class="eyebrow">Come lavoriamo</p>
+          <h2>Dall'analisi gratuita all'automazione che funziona</h2>
+          <p class="section__lead">Partiamo dai vostri documenti veri, non da una demo generica.</p>
+        </div>
+        <ol class="steps">
+          <li class="step reveal"><span class="step__num">1</span><h3>Una visita in azienda</h3><p>Passiamo da voi e guardiamo come arrivano oggi ordini, bolle e fatture, e dove si perde più tempo.</p></li>
+          <li class="step reveal"><span class="step__num">2</span><h3>Analisi gratuita</h3><p>Con qualche documento di esempio vi diciamo cosa conviene automatizzare per primo e quanto tempo potete risparmiare.</p></li>
+          <li class="step reveal"><span class="step__num">3</span><h3>Preventivo chiaro</h3><p>Cosa facciamo, quanto costa e in quanto tempo, deciso prima di iniziare.</p></li>
+          <li class="step reveal"><span class="step__num">4</span><h3>Prova affiancata</h3><p>Per qualche settimana l'automazione lavora accanto a voi: confrontiamo i risultati con il lavoro a mano e la sistemiamo.</p></li>
+          <li class="step reveal"><span class="step__num">5</span><h3>Assistenza</h3><p>Restiamo raggiungibili e aggiorniamo l'automazione quando cambiano clienti, fornitori o codici articolo.</p></li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ZONE -->
+    <section class="section section--tint">
+      <div class="container">
+        <div class="section__head reveal">
+          <p class="eyebrow">Per chi e dove</p>
+          <h2>Magazzini e aziende della provincia di Sondrio</h2>
+          <p class="section__lead">Siamo in provincia di Sondrio: veniamo di persona quando serve e lavoriamo da remoto per tutto il resto.</p>
+        </div>
+        <ul class="zones reveal">
+          <li>Grossisti e distributori</li><li>Magazzini conto terzi</li><li>Trasporti e spedizioni</li><li>Aziende di produzione</li><li>Ricambi e ferramenta</li><li>Materiali edili</li><li>Alimentari e bevande</li><li>Vendita online</li>
+        </ul>
+        <ul class="zones reveal" style="margin-top:14px">
+          <li>Sondrio</li><li>Morbegno</li><li>Talamona</li><li>Cosio Valtellino</li><li>Delebio</li><li>Berbenno</li><li>Castione Andevenno</li><li>Tirano</li><li>Grosotto</li><li>Bormio</li><li>Livigno</li><li>Chiavenna</li><li>Novate Mezzola</li><li>Colico</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section" id="faq">
+      <div class="container container--narrow">
+        <div class="section__head reveal">
+          <p class="eyebrow">Domande frequenti</p>
+          <h2>Automazione per logistica e magazzino: le domande più comuni</h2>
+        </div>
+        <div class="faq reveal">
+          <details><summary>Realizzate magazzini robotizzati o automatici?</summary><p>No. Robot, scaffali automatici e navette sono impianti che progettano aziende specializzate. Noi automatizziamo la parte di informazioni: ordini, documenti di trasporto, giacenze, spedizioni e avvisi. Servono sia ai magazzini tradizionali sia a quelli già automatizzati.</p></details>
+          <details><summary>Dobbiamo cambiare gestionale?</summary><p>No. Le automazioni lavorano con il gestionale che avete, con Excel o con Google Sheets. Se il gestionale permette un collegamento diretto lo usiamo, altrimenti prepariamo file pronti da importare in pochi clic.</p></details>
+          <details><summary>L'AI riesce a leggere ordini scritti in modi diversi?</summary><p>Sì, legge email, PDF, fogli Excel e anche foto di ordini scritti a mano, purché leggibili. Quando un codice non è chiaro o un articolo non esiste, non tira a indovinare: segnala la riga e la lascia da controllare a voi.</p></details>
+          <details><summary>Cosa succede se l'automazione sbaglia?</summary><p>Ordini, riordini e pagamenti non diventano mai definitivi senza la vostra conferma, quindi un errore si vede prima che faccia danni. Ogni operazione è registrata e durante la prova confrontiamo i risultati con il lavoro fatto a mano.</p></details>
+          <details><summary>Può ordinare la merce ai fornitori da sola?</summary><p>Può prepararvi la proposta d'ordine quando un articolo scende sotto la scorta minima, già divisa per fornitore. L'invio però lo decidete sempre voi: è una regola che applichiamo a tutte le automazioni che toccano soldi o impegni con altre aziende.</p></details>
+          <details><summary>Funziona anche con i corrieri?</summary><p>Sì, per le parti che i corrieri permettono di collegare: numeri di tracking, avvisi di partenza e di consegna ai clienti, elenco delle spedizioni in ritardo. Il collegamento cambia da corriere a corriere e lo verifichiamo durante l'analisi.</p></details>
+          <details><summary>I nostri dati restano riservati?</summary><p>Sì. Listini, clienti e fatture vengono trattati con servizi AI usati tramite API, che non usano i vostri documenti per addestrare i modelli. Gli accessi sono limitati a quello che serve, con backup e un accordo sul trattamento dei dati.</p></details>
+          <details><summary>Quanto costa?</summary><p>Dipende da quante attività automatizzate e da come sono collegati i vostri programmi. Si parte quasi sempre da una sola automazione, con un prezzo fisso scritto nel preventivo e definito prima di iniziare. L'analisi iniziale è gratuita e senza impegno.</p></details>
+        </div>
+      </div>
+    </section>
+
+    <!-- ALTRI SERVIZI -->
+    <section class="section section--related">
+      <div class="container">
+        <div class="section__head reveal"><p class="eyebrow">Servizi e settori</p><h2>Cosa possiamo fare anche per voi</h2></div>
+        <div class="related">
+          <a class="related__item reveal" href="/intelligenza-artificiale-valtellina/"><svg class="ic"><use href="#i-spark"/></svg><div><h3>Intelligenza artificiale in Valtellina</h3><p>Cosa può fare l'AI in azienda, in parole semplici, settore per settore.</p></div><svg class="ic related__go"><use href="#i-arrow"/></svg></a>
+          <a class="related__item reveal" href="/automazione-aziende-valtellina/"><svg class="ic"><use href="#i-brain"/></svg><div><h3>Automazione aziende Valtellina</h3><p>Automazioni e agenti AI per email, fatture, ordini e documenti.</p></div><svg class="ic related__go"><use href="#i-arrow"/></svg></a>
+          <a class="related__item reveal" href="/siti-web-sondrio/"><svg class="ic"><use href="#i-globe"/></svg><div><h3>Siti web Sondrio</h3><p>Siti vetrina, landing page e siti per strutture ricettive.</p></div><svg class="ic related__go"><use href="#i-arrow"/></svg></a>
+          <a class="related__item reveal" href="/rifacimento-sito-web-sondrio/"><svg class="ic"><use href="#i-refresh"/></svg><div><h3>Rifacimento sito web</h3><p>Sito vecchio o lento? Lo rimettiamo a nuovo, con controllo gratuito.</p></div><svg class="ic related__go"><use href="#i-arrow"/></svg></a>
+          <a class="related__item reveal" href="/sito-web-ristoranti-valtellina/"><svg class="ic"><use href="#i-file"/></svg><div><h3>Sito web per ristoranti</h3><p>Menu, orari, foto e prenotazioni per ristoranti, trattorie e agriturismi.</p></div><svg class="ic related__go"><use href="#i-arrow"/></svg></a>
+          <a class="related__item reveal" href="/automazione-ristoranti-valtellina/"><svg class="ic"><use href="#i-bell"/></svg><div><h3>Automazione per ristoranti</h3><p>Prenotazioni, promemoria, recensioni e ordini ai fornitori in automatico.</p></div><svg class="ic related__go"><use href="#i-arrow"/></svg></a>
+          <a class="related__item reveal" href="/social-media-valtellina/"><svg class="ic"><use href="#i-camera"/></svg><div><h3>Social media Valtellina</h3><p>Post, foto, reel e TikTok per farvi conoscere in valle.</p></div><svg class="ic related__go"><use href="#i-arrow"/></svg></a>
+          <a class="related__item reveal" href="/automazione-hotel-valtellina/"><svg class="ic"><use href="#i-calendar"/></svg><div><h3>Automazione per hotel</h3><p>Richieste di disponibilità, ospiti stranieri, pre-arrivo e recensioni.</p></div><svg class="ic related__go"><use href="#i-arrow"/></svg></a>
+          <a class="related__item reveal" href="/automazione-commercialisti-sondrio/"><svg class="ic"><use href="#i-folder"/></svg><div><h3>Automazione per studi professionali</h3><p>Documenti dei clienti, solleciti, archiviazione e scadenze.</p></div><svg class="ic related__go"><use href="#i-arrow"/></svg></a>
+          <a class="related__item reveal" href="/automazione-studi-legali-tecnici-sondrio/"><svg class="ic"><use href="#i-mail"/></svg><div><h3>Automazione per studi legali e tecnici</h3><p>Email e PEC smistate per pratica, scadenze segnalate, bozze da approvare.</p></div><svg class="ic related__go"><use href="#i-arrow"/></svg></a>
+          <a class="related__item reveal" href="/sito-prenotazioni-dirette-case-vacanza/"><svg class="ic"><use href="#i-calendar"/></svg><div><h3>Sito con prenotazioni dirette</h3><p>Case vacanza e B&B: meno commissioni a Booking e Airbnb, tutto in regola.</p></div><svg class="ic related__go"><use href="#i-arrow"/></svg></a>
+          <a class="related__item reveal" href="/sicurezza-informatica-automazioni/"><svg class="ic"><use href="#i-shield"/></svg><div><h3>Sicurezza informatica</h3><p>Le 10 regole di sicurezza che applichiamo a ogni automazione e agente AI.</p></div><svg class="ic related__go"><use href="#i-arrow"/></svg></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== 8. CTA FINALE / CONTATTI ===== -->
+    <section class="section section--cta" id="contatti">
+      <div class="container cta">
+        <div class="cta__copy reveal">
+          <p class="eyebrow eyebrow--light">Consulenza gratuita</p>
+          <h2>Raccontateci come arrivano oggi i vostri ordini</h2>
+          <p class="cta__lead">Raccontaci in due righe cosa vi fa perdere più tempo. Ti ricontattiamo entro un giorno lavorativo per capire insieme cosa si può automatizzare e quanto tempo potresti risparmiare.</p>
+          <ul class="cta__points">
+            <li><svg class="ic"><use href="#i-check"/></svg> Prima analisi gratuita e senza impegno</li>
+            <li><svg class="ic"><use href="#i-check"/></svg> Linguaggio semplice, niente tecnicismi</li>
+            <li><svg class="ic"><use href="#i-check"/></svg> Incontro in sede o online, come preferisci</li>
+          </ul>
+          <div class="cta__direct">
+            <a href="tel:+393515073173"><svg class="ic"><use href="#i-phone"/></svg> +39 351 507 3173</a>
+            <a href="mailto:info@officinaquantica.it"><svg class="ic"><use href="#i-mail"/></svg> info@officinaquantica.it</a>
+          </div>
+        </div>
+
+        <form class="form reveal" id="contact-form" action="https://formsubmit.co/ajax/info@officinaquantica.it" method="POST" novalidate>
+          <input type="hidden" name="_subject" value="Nuova richiesta dal sito: pagina Automazione logistica e magazzino">
+          <input type="hidden" name="_template" value="table">
+          <input type="text" name="_honey" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px">
+          <h3 class="form__title">Richiedi la tua consulenza gratuita</h3>
+          <div class="form__row">
+            <label class="field">
+              <span>Nome e cognome *</span>
+              <input type="text" name="nome" autocomplete="name" required>
+            </label>
+            <label class="field">
+              <span>Azienda</span>
+              <input type="text" name="azienda" autocomplete="organization">
+            </label>
+          </div>
+          <div class="form__row">
+            <label class="field">
+              <span>Email *</span>
+              <input type="email" name="email" autocomplete="email" required>
+            </label>
+            <label class="field">
+              <span>Telefono</span>
+              <input type="tel" name="telefono" autocomplete="tel">
+            </label>
+          </div>
+          <label class="field">
+            <span>Di cosa ti occupi?</span>
+            <select name="settore">
+              <option value="">Seleziona il settore</option>
+              <option>Azienda / PMI</option>
+              <option>Studio professionale</option>
+              <option>Negozio / Commercio</option>
+              <option>Ristorante / Struttura ricettiva</option>
+              <option>Artigiano</option>
+              <option>Altro</option>
+            </select>
+          </label>
+          <label class="field">
+            <span>Quale attività vorresti automatizzare? *</span>
+            <textarea name="messaggio" rows="4" required placeholder="Es. ogni giorno inseriamo a mano nel gestionale le fatture dei fornitori che arrivano via email..."></textarea>
+          </label>
+          <label class="check">
+            <input type="checkbox" name="privacy" required>
+            <span>Ho letto l'<a href="/privacy.html">informativa privacy</a> e acconsento al trattamento dei dati per essere ricontattato. *</span>
+          </label>
+          <button type="submit" class="btn btn--primary btn--lg btn--block">Invia la richiesta <svg class="ic"><use href="#i-arrow"/></svg></button>
+          <p class="form__msg" id="form-msg" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container footer__grid">
+      <div>
+        <a href="/" class="logo logo--footer" aria-label="Valtellina Automazioni">
+          <span class="logo__mark" aria-hidden="true">
+            <svg viewBox="0 0 32 32"><path d="M4 24 12 10l5 8 4-6 7 12z" fill="currentColor"/><circle cx="23" cy="8" r="3" fill="var(--warm)"/></svg>
+          </span>
+          <span class="logo__text">Valtellina<strong>Automazioni</strong></span>
+        </a>
+        <p class="footer__claim">Automazione dei processi aziendali, agenti AI, siti web e content marketing per le imprese di Sondrio e della Valtellina.</p>
+      </div>
+      <div>
+        <h3>Servizi</h3>
+        <ul>
+          <li><a href="/#automazione">Automazione e agenti AI</a></li>
+          <li><a href="/intelligenza-artificiale-valtellina/">Intelligenza artificiale in Valtellina</a></li>
+          <li><a href="/automazione-aziende-valtellina/">Automazione aziende Valtellina</a></li>
+          <li><a href="/automazione-logistica-magazzino-sondrio/">Automazione logistica e magazzino</a></li>
+          <li><a href="/siti-web-sondrio/">Siti web Sondrio</a></li>
+          <li><a href="/rifacimento-sito-web-sondrio/">Rifacimento sito web</a></li>
+          <li><a href="/sito-web-ristoranti-valtellina/">Sito web per ristoranti</a></li>
+          <li><a href="/automazione-ristoranti-valtellina/">Automazione per ristoranti</a></li>
+          <li><a href="/social-media-valtellina/">Social media Valtellina</a></li>
+          <li><a href="/automazione-hotel-valtellina/">Automazione per hotel</a></li>
+          <li><a href="/sito-prenotazioni-dirette-case-vacanza/">Sito con prenotazioni dirette</a></li>
+          <li><a href="/automazione-commercialisti-sondrio/">Automazione per commercialisti</a></li>
+          <li><a href="/automazione-studi-legali-tecnici-sondrio/">Automazione per studi legali e tecnici</a></li>
+          <li><a href="/sicurezza-informatica-automazioni/">Sicurezza informatica</a></li>
+          <li><a href="/#siti-web">Creazione siti web</a></li>
+          <li><a href="/#content-marketing">Content creation e marketing</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Contatti</h3>
+        <address>
+          Largo Valorsa, 23100 Sondrio (SO)<br>
+          <a href="tel:+393515073173">+39 351 507 3173</a><br>
+          <a href="mailto:info@officinaquantica.it">info@officinaquantica.it</a>
+        </address>
+      </div>
+      <div>
+        <h3>Dove operiamo</h3>
+        <p class="footer__areas">Sondrio, Morbegno, Tirano, Chiavenna, Bormio, Livigno, Valmalenco e tutta la provincia di Sondrio.</p>
+      </div>
+    </div>
+    <div class="container footer__bottom">
+      <p>© <span id="year">2026</span> Valtellina Automazioni · P.IVA IT01009390145</p>
+      <p><a href="/privacy.html">Privacy policy</a> · <a href="/privacy.html#cookie">Cookie policy</a> · <a href="#" data-cookie-prefs>Preferenze cookie</a></p>
+    </div>
+  </footer>
+
+  <!-- CTA fissa su smartphone -->
+  <a href="#contatti" class="mobile-cta">Richiedi una consulenza gratuita</a>
+
+  <script src="/js/main.js" defer></script>
+  <script src="/js/cookie-consent.js" defer></script>
+</body>
+</html>
